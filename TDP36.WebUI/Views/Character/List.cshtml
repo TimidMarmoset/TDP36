@@ -1,0 +1,17 @@
+﻿@using TDP36.Domain.Entities
+@model IEnumerable<Opponent>
+
+@{
+    ViewBag.Title = "Opponents";
+}
+
+<h2>List</h2>
+
+@foreach (var o in Model)
+{
+    <div>
+        <h3>@o.Name</h3>
+        @o.Description
+    </div>
+}
+
