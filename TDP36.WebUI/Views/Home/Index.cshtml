@@ -2,30 +2,42 @@
     ViewBag.Title = "Home Page";
 }
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+<div class="row">
+    <h3>
+        A suspicious woodland creature approaches you. Around his neck hangs a tiny rolled scroll. The language is strange but familiar. It reads:
+    </h3>
+    <p>
+        Welcome. <br/>
+        You probably don't know where you are. <br />
+        This strange creature will help you. <br />
+        To begin your journey you must first see what has happened before. <br />
+    </p>
+    @Html.ActionLink("Create a Character", "Create", "Character", new { area = "" }, new { @class = "btn btn-default" })
 </div>
 
 <div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-    </div>
+    <h3>
+       The blocky script of the scroll changes as you try to focus on the symbols... 
+    </h3>
+    <p>
+        This language is strange, yet familiar. Your new companion indicates you will encounter much stranger forms of communication in your journeys.
+        You must be prepared.
+    </p>
+    <p><a class="btn btn-default">To the scriptorium! &raquo;</a></p>
+</div>
+
+<div class="row">
+    <h3>You must train in the ways of the Celestial Dynasty if you are to survive your journey.</h3>
+    <p>
+        The small woodland animal is clearly expressing concern. You get the feeling it thinks you weak and uncoordinated-- 
+        unfit for the struggle before you. It may even be making fun of you a little in its strange clicky tongue.</p>
+    <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Challene Him to an Honor Duel! &raquo;</a></p>
+</div>
+
+<div class="row">
+    <h3>Unroll the Scroll</h3>
+    <p>
+        Even as you stare at the tiny animal's little scroll you see its semi-familiar script shift and bend, contorting into..some sort of ancient chronicle?
+    </p>
+    <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Let it Begin &raquo;</a></p>
 </div>
